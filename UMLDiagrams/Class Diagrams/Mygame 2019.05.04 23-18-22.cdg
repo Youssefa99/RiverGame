@@ -1,0 +1,1390 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ClassDiagram name="Mygame">
+  <ClassDiagramComponents>
+    <Class name="boatMoves" package="mygame" visibility="public" xPosition="20.0" yPosition="20.0">
+      <Fields>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="farmer" type="Spritefarmer" visibility="package" isStatic="true"/>
+        <Field name="farmer1" type="Spritefarmer1" visibility="package" isStatic="true"/>
+        <Field name="farmer2" type="Spritefarmer2" visibility="package" isStatic="true"/>
+        <Field name="farmer3" type="Spritefarmer3" visibility="package" isStatic="true"/>
+        <Field name="chicken" type="Spritechicken" visibility="package" isStatic="true"/>
+        <Field name="chicken1" type="Spritechicken1" visibility="package" isStatic="true"/>
+        <Field name="chicken2" type="Spritechicken2" visibility="package" isStatic="true"/>
+        <Field name="chicken3" type="Spritechicken3" visibility="package" isStatic="true"/>
+        <Field name="size" type="int" visibility="package"/>
+        <Field name="g" type="getWeight" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="move" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="chcken3Moves" package="mygame" visibility="public" xPosition="320.0" yPosition="20.0">
+      <Fields>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="farmer" type="Spritefarmer" visibility="package" isStatic="true"/>
+        <Field name="farmer1" type="Spritefarmer1" visibility="package" isStatic="true"/>
+        <Field name="farmer2" type="Spritefarmer2" visibility="package" isStatic="true"/>
+        <Field name="farmer3" type="Spritefarmer3" visibility="package" isStatic="true"/>
+        <Field name="chicken" type="Spritechicken" visibility="package" isStatic="true"/>
+        <Field name="chicken1" type="Spritechicken1" visibility="package" isStatic="true"/>
+        <Field name="chicken2" type="Spritechicken2" visibility="package" isStatic="true"/>
+        <Field name="chicken3" type="Spritechicken3" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="move" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="chicken1Moves" package="mygame" visibility="public" xPosition="620.0" yPosition="20.0">
+      <Fields>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="farmer" type="Spritefarmer" visibility="package" isStatic="true"/>
+        <Field name="farmer1" type="Spritefarmer1" visibility="package" isStatic="true"/>
+        <Field name="farmer2" type="Spritefarmer2" visibility="package" isStatic="true"/>
+        <Field name="farmer3" type="Spritefarmer3" visibility="package" isStatic="true"/>
+        <Field name="chicken1" type="Spritechicken1" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="move" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="chicken2Moves" package="mygame" visibility="public" xPosition="920.0" yPosition="20.0">
+      <Fields>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="farmer" type="Spritefarmer" visibility="package" isStatic="true"/>
+        <Field name="farmer1" type="Spritefarmer1" visibility="package" isStatic="true"/>
+        <Field name="farmer2" type="Spritefarmer2" visibility="package" isStatic="true"/>
+        <Field name="farmer3" type="Spritefarmer3" visibility="package" isStatic="true"/>
+        <Field name="chicken" type="Spritechicken" visibility="package" isStatic="true"/>
+        <Field name="chicken1" type="Spritechicken1" visibility="package" isStatic="true"/>
+        <Field name="chicken2" type="Spritechicken2" visibility="package" isStatic="true"/>
+        <Field name="chicken3" type="Spritechicken3" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="move" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="chickenMoves" package="mygame" visibility="public" xPosition="1220.0" yPosition="20.0">
+      <Fields>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="farmer" type="Spritefarmer" visibility="package" isStatic="true"/>
+        <Field name="farmer1" type="Spritefarmer1" visibility="package" isStatic="true"/>
+        <Field name="farmer2" type="Spritefarmer2" visibility="package" isStatic="true"/>
+        <Field name="farmer3" type="Spritefarmer3" visibility="package" isStatic="true"/>
+        <Field name="chicken" type="Spritechicken" visibility="package" isStatic="true"/>
+        <Field name="chicken1" type="Spritechicken1" visibility="package" isStatic="true"/>
+        <Field name="chicken2" type="Spritechicken2" visibility="package" isStatic="true"/>
+        <Field name="chicken3" type="Spritechicken3" visibility="package" isStatic="true"/>
+        <Field name="g" type="getWeight" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="move" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="context" package="mygame" visibility="public" xPosition="1520.0" yPosition="20.0">
+      <Fields>
+        <Field name="strategy" type="ImoveStrategy" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="setContext" returnType="void" visibility="public">
+          <Argument type="ImoveStrategy" name="strategy"/>
+        </Method>
+        <Method name="direct" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Controller" package="mygame" visibility="public" xPosition="1820.0" yPosition="20.0">
+      <Fields>
+        <Field name="gl" type="GuiLogic" visibility="package"/>
+        <Field name="b" type="moveboat" visibility="package"/>
+        <Field name="c" type="moveCarrot" visibility="package"/>
+        <Field name="t" type="moveTiger" visibility="package"/>
+        <Field name="r" type="moveRabbit" visibility="package"/>
+        <Field name="f" type="ImoveStrategy" visibility="package"/>
+        <Field name="ctx" type="context" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="test" returnType="void" visibility="public">
+          <Argument type="String" name="s"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Controller2" package="mygame" visibility="public" xPosition="2120.0" yPosition="20.0">
+      <Fields>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="farmer" type="Spritefarmer" visibility="package" isStatic="true"/>
+        <Field name="farmer1" type="Spritefarmer1" visibility="package" isStatic="true"/>
+        <Field name="farmer2" type="Spritefarmer2" visibility="package" isStatic="true"/>
+        <Field name="farmer3" type="Spritefarmer3" visibility="package" isStatic="true"/>
+        <Field name="chicken" type="Spritechicken" visibility="package" isStatic="true"/>
+        <Field name="chicken1" type="Spritechicken1" visibility="package" isStatic="true"/>
+        <Field name="chicken2" type="Spritechicken2" visibility="package" isStatic="true"/>
+        <Field name="chicken3" type="Spritechicken3" visibility="package" isStatic="true"/>
+        <Field name="b" type="boatMoves" visibility="package"/>
+        <Field name="f" type="farmerMoves" visibility="package"/>
+        <Field name="f1" type="farmer1Moves" visibility="package"/>
+        <Field name="f2" type="farmer2Moves" visibility="package"/>
+        <Field name="f3" type="farmer3Moves" visibility="package"/>
+        <Field name="c" type="chickenMoves" visibility="package"/>
+        <Field name="c1" type="chicken1Moves" visibility="package"/>
+        <Field name="c2" type="chicken2Moves" visibility="package"/>
+        <Field name="c3" type="chcken3Moves" visibility="package"/>
+        <Field name="invoke" type="invoker" visibility="package"/>
+        <Field name="com" type="Icommand" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="test" returnType="void" visibility="public">
+          <Argument type="String" name="s"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Crossers" package="mygame" visibility="public" xPosition="20.0" yPosition="420.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="getInitials" returnType="List&lt;Icrosser&gt;" visibility="public"/>
+        <Method name="getInitials1" returnType="List&lt;Icrosser2&gt;" visibility="public"/>
+        <Method name="rightSide1" returnType="List&lt;Icrosser&gt;" visibility="public"/>
+        <Method name="leftSide" returnType="List&lt;Icrosser&gt;" visibility="public"/>
+        <Method name="leftSide1" returnType="List&lt;Icrosser2&gt;" visibility="public"/>
+        <Method name="rightSide2" returnType="List&lt;Icrosser2&gt;" visibility="public"/>
+      </Methods>
+    </Class>
+    <Interface name="Crossing" package="mygame" visibility="public" xPosition="320.0" yPosition="420.0">
+      <Methods>
+        <Method name="check" returnType="int" visibility="public"/>
+        <Method name="isValid" returnType="boolean" visibility="public"/>
+        <Method name="checkRight" returnType="int" visibility="public"/>
+      </Methods>
+    </Interface>
+    <Interface name="Crossing2" package="mygame" visibility="public" xPosition="620.0" yPosition="420.0">
+      <Methods>
+        <Method name="weight" returnType="int" visibility="public"/>
+        <Method name="isValid" returnType="boolean" visibility="public"/>
+        <Method name="checkRightSide" returnType="boolean" visibility="public"/>
+      </Methods>
+    </Interface>
+    <Class name="eatingRank" package="mygame" visibility="public" xPosition="920.0" yPosition="420.0">
+      <Fields>
+        <Field name="diff" type="int" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="check" returnType="int" visibility="public"/>
+        <Method name="checkRight" returnType="int" visibility="public"/>
+        <Method name="isValid" returnType="boolean" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="farmer1Moves" package="mygame" visibility="public" xPosition="1220.0" yPosition="420.0">
+      <Fields>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="farmer" type="Spritefarmer" visibility="package" isStatic="true"/>
+        <Field name="farmer1" type="Spritefarmer1" visibility="package" isStatic="true"/>
+        <Field name="farmer2" type="Spritefarmer2" visibility="package" isStatic="true"/>
+        <Field name="farmer3" type="Spritefarmer3" visibility="package" isStatic="true"/>
+        <Field name="chicken" type="Spritechicken" visibility="package" isStatic="true"/>
+        <Field name="chicken1" type="Spritechicken1" visibility="package" isStatic="true"/>
+        <Field name="chicken2" type="Spritechicken2" visibility="package" isStatic="true"/>
+        <Field name="chicken3" type="Spritechicken3" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="move" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="farmer2Moves" package="mygame" visibility="public" xPosition="1520.0" yPosition="420.0">
+      <Fields>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="farmer" type="Spritefarmer" visibility="package" isStatic="true"/>
+        <Field name="farmer1" type="Spritefarmer1" visibility="package" isStatic="true"/>
+        <Field name="farmer2" type="Spritefarmer2" visibility="package" isStatic="true"/>
+        <Field name="farmer3" type="Spritefarmer3" visibility="package" isStatic="true"/>
+        <Field name="chicken" type="Spritechicken" visibility="package" isStatic="true"/>
+        <Field name="chicken1" type="Spritechicken1" visibility="package" isStatic="true"/>
+        <Field name="chicken2" type="Spritechicken2" visibility="package" isStatic="true"/>
+        <Field name="chicken3" type="Spritechicken3" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="move" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="farmer3Moves" package="mygame" visibility="public" xPosition="1820.0" yPosition="420.0">
+      <Fields>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="farmer" type="Spritefarmer" visibility="package" isStatic="true"/>
+        <Field name="farmer1" type="Spritefarmer1" visibility="package" isStatic="true"/>
+        <Field name="farmer2" type="Spritefarmer2" visibility="package" isStatic="true"/>
+        <Field name="farmer3" type="Spritefarmer3" visibility="package" isStatic="true"/>
+        <Field name="chicken" type="Spritechicken" visibility="package" isStatic="true"/>
+        <Field name="chicken1" type="Spritechicken1" visibility="package" isStatic="true"/>
+        <Field name="chicken2" type="Spritechicken2" visibility="package" isStatic="true"/>
+        <Field name="chicken3" type="Spritechicken3" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="move" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="farmerMoves" package="mygame" visibility="public" xPosition="2120.0" yPosition="420.0">
+      <Fields>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="farmer" type="Spritefarmer" visibility="package" isStatic="true"/>
+        <Field name="farmer1" type="Spritefarmer1" visibility="package" isStatic="true"/>
+        <Field name="farmer2" type="Spritefarmer2" visibility="package" isStatic="true"/>
+        <Field name="farmer3" type="Spritefarmer3" visibility="package" isStatic="true"/>
+        <Field name="chicken" type="Spritechicken" visibility="package" isStatic="true"/>
+        <Field name="chicken1" type="Spritechicken1" visibility="package" isStatic="true"/>
+        <Field name="chicken2" type="Spritechicken2" visibility="package" isStatic="true"/>
+        <Field name="chicken3" type="Spritechicken3" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="move" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="FirstGui" package="mygame" visibility="public" xPosition="20.0" yPosition="820.0">
+      <Fields>
+        <Field name="window" type="Stage" visibility="package"/>
+        <Field name="scene1" type="Scene" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="start" returnType="void" visibility="public">
+          <Argument type="Stage" name="primaryStage"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Interface name="GameController" package="mygame" visibility="public" xPosition="320.0" yPosition="820.0">
+      <Methods>
+        <Method name="getInitials" returnType="List&lt;Icrosser&gt;" visibility="public"/>
+        <Method name="getInitials1" returnType="List&lt;Icrosser2&gt;" visibility="public"/>
+        <Method name="rightSide1" returnType="List&lt;Icrosser&gt;" visibility="public"/>
+        <Method name="leftSide" returnType="List&lt;Icrosser&gt;" visibility="public"/>
+        <Method name="rightSide2" returnType="List&lt;Icrosser2&gt;" visibility="public"/>
+        <Method name="leftSide1" returnType="List&lt;Icrosser2&gt;" visibility="public"/>
+      </Methods>
+    </Interface>
+    <Class name="getWeight" package="mygame" visibility="public" xPosition="620.0" yPosition="820.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="weight" returnType="int" visibility="public"/>
+        <Method name="isValid" returnType="boolean" visibility="public"/>
+        <Method name="checkRightSide" returnType="boolean" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="GuiLogic" package="mygame" visibility="public" xPosition="920.0" yPosition="820.0">
+      <Fields>
+        <Field name="flag" type="int" visibility="package"/>
+        <Field name="flag2" type="int" visibility="package"/>
+        <Field name="boat" type="SpriteBoat" visibility="package"/>
+        <Field name="tiger" type="SpriteTiger" visibility="package"/>
+        <Field name="rabbit" type="SpriteRabbit" visibility="package"/>
+        <Field name="carrot" type="SpriteCarrot" visibility="package"/>
+        <Field name="Human" type="SpriteHuman" visibility="package"/>
+        <Field name="l" type="eatingRank" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="test" returnType="void" visibility="public">
+          <Argument type="String" name="s"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="GuiLogic2" package="mygame" visibility="public" xPosition="1220.0" yPosition="820.0">
+      <Fields>
+        <Field name="flag" type="int" visibility="package"/>
+        <Field name="flag2" type="int" visibility="package"/>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="farmer" type="Spritefarmer" visibility="package" isStatic="true"/>
+        <Field name="farmer1" type="Spritefarmer1" visibility="package" isStatic="true"/>
+        <Field name="farmer2" type="Spritefarmer2" visibility="package" isStatic="true"/>
+        <Field name="farmer3" type="Spritefarmer3" visibility="package" isStatic="true"/>
+        <Field name="chicken" type="Spritechicken" visibility="package" isStatic="true"/>
+        <Field name="chicken1" type="Spritechicken1" visibility="package" isStatic="true"/>
+        <Field name="chicken2" type="Spritechicken2" visibility="package" isStatic="true"/>
+        <Field name="chicken3" type="Spritechicken3" visibility="package" isStatic="true"/>
+        <Field name="l" type="eatingRank" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="test" returnType="void" visibility="public">
+          <Argument type="String" name="s"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Interface name="Icommand" package="mygame" visibility="public" xPosition="1520.0" yPosition="820.0">
+      <Methods>
+        <Method name="move" returnType="void" visibility="public"/>
+      </Methods>
+    </Interface>
+    <Class name="Icrosser" package="mygame" visibility="public" xPosition="1820.0" yPosition="820.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="deltaX" type="double" visibility="package" isStatic="true"/>
+        <Field name="deltaY" type="double" visibility="package" isStatic="true"/>
+        <Field name="idx" type="int" visibility="package"/>
+        <Field name="eatingRank" type="int" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods/>
+    </Class>
+    <Class name="Icrosser2" package="mygame" visibility="public" xPosition="2120.0" yPosition="820.0">
+      <Fields>
+        <Field name="weight" type="int" visibility="package"/>
+        <Field name="deltaX" type="double" visibility="private"/>
+        <Field name="deltaY" type="double" visibility="private"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="addDeltaX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="addDeltaY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="update" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Interface name="ImoveStrategy" package="mygame" visibility="public" xPosition="20.0" yPosition="1220.0">
+      <Methods>
+        <Method name="move" returnType="void" visibility="package"/>
+      </Methods>
+    </Interface>
+    <Class name="invoker" package="mygame" visibility="public" xPosition="320.0" yPosition="1220.0">
+      <Fields>
+        <Field name="decision" type="List&lt;Icommand&gt;" visibility="private"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="action" returnType="void" visibility="public">
+          <Argument type="Icommand" name="command"/>
+        </Method>
+        <Method name="execute" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Level" package="mygame" visibility="public" xPosition="620.0" yPosition="1220.0">
+      <Fields>
+        <Field name="scene" type="Scene" visibility="package"/>
+        <Field name="sl" type="Secondlevel" visibility="package"/>
+        <Field name="fg" type="FirstGui" visibility="package"/>
+        <Field name="stage" type="Stage" visibility="package"/>
+        <Field name="mg" type="Mygame" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Stage" name="stage"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="seconddraw" returnType="void" visibility="public"/>
+        <Method name="getScene" returnType="Scene" visibility="public"/>
+        <Method name="setsecond" returnType="void" visibility="public">
+          <Argument type="Mygame" name="mg"/>
+        </Method>
+        <Method name="setthird" returnType="void" visibility="public">
+          <Argument type="Secondlevel" name="sl"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="moveboat" package="mygame" visibility="public" xPosition="920.0" yPosition="1220.0">
+      <Fields>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="tiger" type="SpriteTiger" visibility="package" isStatic="true"/>
+        <Field name="rabbit" type="SpriteRabbit" visibility="package" isStatic="true"/>
+        <Field name="carrot" type="SpriteCarrot" visibility="package" isStatic="true"/>
+        <Field name="Human" type="SpriteHuman" visibility="package" isStatic="true"/>
+        <Field name="l" type="eatingRank" visibility="package"/>
+        <Field name="flag" type="int" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="move" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="moveCarrot" package="mygame" visibility="public" xPosition="1220.0" yPosition="1220.0">
+      <Fields>
+        <Field name="carrot" type="SpriteCarrot" visibility="package"/>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="l" type="eatingRank" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="move" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="moveRabbit" package="mygame" visibility="public" xPosition="1520.0" yPosition="1220.0">
+      <Fields>
+        <Field name="rabbit" type="SpriteRabbit" visibility="package" isStatic="true"/>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="l" type="eatingRank" visibility="package"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="move" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="moveTiger" package="mygame" visibility="public" xPosition="1820.0" yPosition="1220.0">
+      <Fields>
+        <Field name="flag2" type="int" visibility="package"/>
+        <Field name="l" type="eatingRank" visibility="package"/>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="tiger" type="SpriteTiger" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="move" returnType="void" visibility="public"/>
+      </Methods>
+    </Class>
+    <Class name="Mygame" package="mygame" visibility="public" xPosition="2120.0" yPosition="1220.0">
+      <Fields>
+        <Field name="stage" type="Stage" visibility="package"/>
+        <Field name="game" type="Scene" visibility="package"/>
+        <Field name="flag" type="int" visibility="package" isStatic="true"/>
+        <Field name="d" type="SpriteBackground" visibility="package" isStatic="true"/>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="tiger" type="SpriteTiger" visibility="package" isStatic="true"/>
+        <Field name="rabbit" type="SpriteRabbit" visibility="package" isStatic="true"/>
+        <Field name="carrot" type="SpriteCarrot" visibility="package" isStatic="true"/>
+        <Field name="Human" type="SpriteHuman" visibility="package" isStatic="true"/>
+        <Field name="stack" type="Stack" visibility="package"/>
+        <Field name="stack2" type="Stack" visibility="package"/>
+        <Field name="C" type="Controller" visibility="package"/>
+        <Field name="g" type="GuiLogic" visibility="package"/>
+        <Field name="leftSide" type="List&lt;Icrosser&gt;" visibility="package" isStatic="true"/>
+        <Field name="rightSide" type="List&lt;Icrosser&gt;" visibility="package" isStatic="true"/>
+        <Field name="l" type="eatingRank" visibility="package"/>
+        <Field name="x" type="XMLHandler" visibility="package"/>
+        <Field name="initial1" type="List&lt;Icrosser&gt;" visibility="package" isStatic="true"/>
+        <Field name="i" type="int" visibility="package"/>
+        <Field name="input" type="String" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Stage" name="stage"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="draw" returnType="void" visibility="public"/>
+        <Method name="getScene" returnType="Scene" visibility="public"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="start" returnType="void" visibility="public">
+          <Argument type="Stage" name="primaryStage"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="Secondlevel" package="mygame" visibility="public" xPosition="20.0" yPosition="1620.0">
+      <Fields>
+        <Field name="stage" type="Stage" visibility="package"/>
+        <Field name="game" type="Scene" visibility="package"/>
+        <Field name="flag" type="int" visibility="package"/>
+        <Field name="boat" type="SpriteBoat" visibility="package" isStatic="true"/>
+        <Field name="farmer" type="Spritefarmer" visibility="package" isStatic="true"/>
+        <Field name="farmer1" type="Spritefarmer1" visibility="package" isStatic="true"/>
+        <Field name="farmer2" type="Spritefarmer2" visibility="package" isStatic="true"/>
+        <Field name="farmer3" type="Spritefarmer3" visibility="package" isStatic="true"/>
+        <Field name="chicken" type="Spritechicken" visibility="package" isStatic="true"/>
+        <Field name="chicken1" type="Spritechicken1" visibility="package" isStatic="true"/>
+        <Field name="chicken2" type="Spritechicken2" visibility="package" isStatic="true"/>
+        <Field name="chicken3" type="Spritechicken3" visibility="package" isStatic="true"/>
+        <Field name="stack" type="Stack" visibility="package"/>
+        <Field name="stack2" type="Stack" visibility="package"/>
+        <Field name="C" type="Controller" visibility="package"/>
+        <Field name="gl" type="GuiLogic2" visibility="package"/>
+        <Field name="l" type="GuiLogic2" visibility="package"/>
+        <Field name="gw" type="getWeight" visibility="package"/>
+        <Field name="leftSide" type="List&lt;Icrosser2&gt;" visibility="package" isStatic="true"/>
+        <Field name="rightSide" type="List&lt;Icrosser2&gt;" visibility="package" isStatic="true"/>
+        <Field name="boatRiders" type="List&lt;Icrosser2&gt;" visibility="package" isStatic="true"/>
+        <Field name="f" type="farmerMoves" visibility="package"/>
+        <Field name="c" type="Controller2" visibility="package"/>
+        <Field name="initial2" type="List&lt;Icrosser2&gt;" visibility="package" isStatic="true"/>
+        <Field name="i" type="int" visibility="package"/>
+        <Field name="g" type="getWeight" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Stage" name="stage"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="draw" returnType="void" visibility="public"/>
+        <Method name="getScene" returnType="Scene" visibility="public"/>
+        <Method name="main" returnType="void" visibility="public" isStatic="true">
+          <Argument type="String[]" name="args"/>
+        </Method>
+        <Method name="start" returnType="void" visibility="public">
+          <Argument type="Stage" name="primaryStage"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="SingletonPatternDemo" package="mygame" visibility="public" xPosition="320.0" yPosition="1620.0">
+      <Fields/>
+      <Constructors/>
+      <Methods>
+        <Method name="create" returnType="void" visibility="public" isStatic="true">
+          <Argument type="Image" name="image"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="SpriteBackground" package="mygame" visibility="public" xPosition="620.0" yPosition="1620.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="private"/>
+        <Field name="positionY" type="double" visibility="private"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="obj" type="SpriteBackground" visibility="private" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="private">
+          <Argument type="Image" name="image"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="getinstance" returnType="SpriteBackground" visibility="public" isStatic="true">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setImage" returnType="void" visibility="public">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setPositionX" returnType="void" visibility="public">
+          <Argument type="double" name="positionX"/>
+        </Method>
+        <Method name="setPositionY" returnType="void" visibility="public">
+          <Argument type="double" name="positionY"/>
+        </Method>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="Display" returnType="void" visibility="public">
+          <Argument type="GraphicsContext" name="gc"/>
+        </Method>
+      </Methods>
+    </Class>
+    <Class name="SpriteBoat" package="mygame" visibility="public" xPosition="920.0" yPosition="1620.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="deltaX" type="double" visibility="package" isStatic="true"/>
+        <Field name="deltaY" type="double" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Image" name="image"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="setImage" returnType="void" visibility="public">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setPositionX" returnType="void" visibility="public">
+          <Argument type="double" name="positionX"/>
+        </Method>
+        <Method name="setPositionY" returnType="void" visibility="public">
+          <Argument type="double" name="positionY"/>
+        </Method>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="Display" returnType="void" visibility="public">
+          <Argument type="GraphicsContext" name="gc"/>
+        </Method>
+        <Method name="addDeltaX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="addDeltaY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="update" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="SpriteCarrot" package="mygame" visibility="public" xPosition="1220.0" yPosition="1620.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="deltaX" type="double" visibility="package" isStatic="true"/>
+        <Field name="deltaY" type="double" visibility="package" isStatic="true"/>
+        <Field name="eatingRank" type="int" visibility="package"/>
+        <Field name="idx" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Image" name="image"/>
+        </Constructor>
+        <Constructor visibility="package"/>
+      </Constructors>
+      <Methods>
+        <Method name="setImage" returnType="void" visibility="public">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setPositionX" returnType="void" visibility="public">
+          <Argument type="double" name="positionX"/>
+        </Method>
+        <Method name="setPositionY" returnType="void" visibility="public">
+          <Argument type="double" name="positionY"/>
+        </Method>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="Display" returnType="void" visibility="public">
+          <Argument type="GraphicsContext" name="gc"/>
+        </Method>
+        <Method name="addDeltaX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="addDeltaY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="update" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="Spritechicken" package="mygame" visibility="public" xPosition="1520.0" yPosition="1620.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="deltaX" type="double" visibility="private"/>
+        <Field name="deltaY" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Image" name="image"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="setImage" returnType="void" visibility="public">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setPositionX" returnType="void" visibility="public">
+          <Argument type="double" name="positionX"/>
+        </Method>
+        <Method name="setPositionY" returnType="void" visibility="public">
+          <Argument type="double" name="positionY"/>
+        </Method>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="Display" returnType="void" visibility="public">
+          <Argument type="GraphicsContext" name="gc"/>
+        </Method>
+        <Method name="addDeltaX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="addDeltaY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="update" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="Spritechicken1" package="mygame" visibility="public" xPosition="1820.0" yPosition="1620.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="deltaX" type="double" visibility="private"/>
+        <Field name="deltaY" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Image" name="image"/>
+        </Constructor>
+        <Constructor visibility="package"/>
+      </Constructors>
+      <Methods>
+        <Method name="setImage" returnType="void" visibility="public">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setPositionX" returnType="void" visibility="public">
+          <Argument type="double" name="positionX"/>
+        </Method>
+        <Method name="setPositionY" returnType="void" visibility="public">
+          <Argument type="double" name="positionY"/>
+        </Method>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="Display" returnType="void" visibility="public">
+          <Argument type="GraphicsContext" name="gc"/>
+        </Method>
+        <Method name="addDeltaX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="addDeltaY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="update" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="Spritechicken2" package="mygame" visibility="public" xPosition="2120.0" yPosition="1620.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="deltaX" type="double" visibility="private"/>
+        <Field name="deltaY" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Image" name="image"/>
+        </Constructor>
+        <Constructor visibility="package"/>
+      </Constructors>
+      <Methods>
+        <Method name="setImage" returnType="void" visibility="public">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setPositionX" returnType="void" visibility="public">
+          <Argument type="double" name="positionX"/>
+        </Method>
+        <Method name="setPositionY" returnType="void" visibility="public">
+          <Argument type="double" name="positionY"/>
+        </Method>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="Display" returnType="void" visibility="public">
+          <Argument type="GraphicsContext" name="gc"/>
+        </Method>
+        <Method name="addDeltaX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="addDeltaY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="update" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="Spritechicken3" package="mygame" visibility="public" xPosition="20.0" yPosition="2020.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="deltaX" type="double" visibility="private"/>
+        <Field name="deltaY" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Image" name="image"/>
+        </Constructor>
+        <Constructor visibility="package"/>
+      </Constructors>
+      <Methods>
+        <Method name="setImage" returnType="void" visibility="public">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setPositionX" returnType="void" visibility="public">
+          <Argument type="double" name="positionX"/>
+        </Method>
+        <Method name="setPositionY" returnType="void" visibility="public">
+          <Argument type="double" name="positionY"/>
+        </Method>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="Display" returnType="void" visibility="public">
+          <Argument type="GraphicsContext" name="gc"/>
+        </Method>
+        <Method name="addDeltaX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="addDeltaY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="update" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="Spritefarmer" package="mygame" visibility="public" xPosition="320.0" yPosition="2020.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="deltaX" type="double" visibility="private"/>
+        <Field name="deltaY" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Image" name="image"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="setImage" returnType="void" visibility="public">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setPositionX" returnType="void" visibility="public">
+          <Argument type="double" name="positionX"/>
+        </Method>
+        <Method name="setPositionY" returnType="void" visibility="public">
+          <Argument type="double" name="positionY"/>
+        </Method>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="Display" returnType="void" visibility="public">
+          <Argument type="GraphicsContext" name="gc"/>
+        </Method>
+        <Method name="addDeltaX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="addDeltaY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="update" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="Spritefarmer1" package="mygame" visibility="public" xPosition="620.0" yPosition="2020.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="deltaX" type="double" visibility="private"/>
+        <Field name="deltaY" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Image" name="image"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="setImage" returnType="void" visibility="public">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setPositionX" returnType="void" visibility="public">
+          <Argument type="double" name="positionX"/>
+        </Method>
+        <Method name="setPositionY" returnType="void" visibility="public">
+          <Argument type="double" name="positionY"/>
+        </Method>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="Display" returnType="void" visibility="public">
+          <Argument type="GraphicsContext" name="gc"/>
+        </Method>
+        <Method name="addDeltaX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="addDeltaY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="update" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="Spritefarmer2" package="mygame" visibility="public" xPosition="920.0" yPosition="2020.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="deltaX" type="double" visibility="private"/>
+        <Field name="deltaY" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Image" name="image"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="setImage" returnType="void" visibility="public">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setPositionX" returnType="void" visibility="public">
+          <Argument type="double" name="positionX"/>
+        </Method>
+        <Method name="setPositionY" returnType="void" visibility="public">
+          <Argument type="double" name="positionY"/>
+        </Method>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="Display" returnType="void" visibility="public">
+          <Argument type="GraphicsContext" name="gc"/>
+        </Method>
+        <Method name="addDeltaX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="addDeltaY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="update" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="Spritefarmer3" package="mygame" visibility="public" xPosition="1220.0" yPosition="2020.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="deltaX" type="double" visibility="private"/>
+        <Field name="deltaY" type="double" visibility="private"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Image" name="image"/>
+        </Constructor>
+      </Constructors>
+      <Methods>
+        <Method name="setImage" returnType="void" visibility="public">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setPositionX" returnType="void" visibility="public">
+          <Argument type="double" name="positionX"/>
+        </Method>
+        <Method name="setPositionY" returnType="void" visibility="public">
+          <Argument type="double" name="positionY"/>
+        </Method>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="Display" returnType="void" visibility="public">
+          <Argument type="GraphicsContext" name="gc"/>
+        </Method>
+        <Method name="addDeltaX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="addDeltaY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="update" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="SpriteHuman" package="mygame" visibility="public" xPosition="1520.0" yPosition="2020.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="deltaX" type="double" visibility="package" isStatic="true"/>
+        <Field name="deltaY" type="double" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Image" name="image"/>
+        </Constructor>
+        <Constructor visibility="package"/>
+      </Constructors>
+      <Methods>
+        <Method name="setImage" returnType="void" visibility="public">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setPositionX" returnType="void" visibility="public">
+          <Argument type="double" name="positionX"/>
+        </Method>
+        <Method name="setPositionY" returnType="void" visibility="public">
+          <Argument type="double" name="positionY"/>
+        </Method>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="Display" returnType="void" visibility="public">
+          <Argument type="GraphicsContext" name="gc"/>
+        </Method>
+        <Method name="addDeltaX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="addDeltaY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="update" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="SpriteRabbit" package="mygame" visibility="public" xPosition="1820.0" yPosition="2020.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="deltaX" type="double" visibility="package"/>
+        <Field name="deltaY" type="double" visibility="package"/>
+        <Field name="eatingRank" type="int" visibility="package"/>
+        <Field name="idx" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Image" name="image"/>
+        </Constructor>
+        <Constructor visibility="package"/>
+      </Constructors>
+      <Methods>
+        <Method name="setImage" returnType="void" visibility="public">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setPositionX" returnType="void" visibility="public">
+          <Argument type="double" name="positionX"/>
+        </Method>
+        <Method name="setPositionY" returnType="void" visibility="public">
+          <Argument type="double" name="positionY"/>
+        </Method>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="Display" returnType="void" visibility="public">
+          <Argument type="GraphicsContext" name="gc"/>
+        </Method>
+        <Method name="addDeltaX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="addDeltaY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="update" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="SpriteTiger" package="mygame" visibility="public" xPosition="2120.0" yPosition="2020.0">
+      <Fields>
+        <Field name="image" type="Image" visibility="package"/>
+        <Field name="positionX" type="double" visibility="package" isStatic="true"/>
+        <Field name="positionY" type="double" visibility="package" isStatic="true"/>
+        <Field name="width" type="double" visibility="private"/>
+        <Field name="height" type="double" visibility="private"/>
+        <Field name="deltaX" type="double" visibility="private"/>
+        <Field name="deltaY" type="double" visibility="private"/>
+        <Field name="eatingRank" type="int" visibility="package"/>
+        <Field name="idx" type="int" visibility="package"/>
+      </Fields>
+      <Constructors>
+        <Constructor visibility="public">
+          <Argument type="Image" name="image"/>
+        </Constructor>
+        <Constructor visibility="package"/>
+      </Constructors>
+      <Methods>
+        <Method name="setImage" returnType="void" visibility="public">
+          <Argument type="Image" name="image"/>
+        </Method>
+        <Method name="setPositionX" returnType="void" visibility="public">
+          <Argument type="double" name="positionX"/>
+        </Method>
+        <Method name="setPositionY" returnType="void" visibility="public">
+          <Argument type="double" name="positionY"/>
+        </Method>
+        <Method name="setWidth" returnType="void" visibility="public">
+          <Argument type="double" name="width"/>
+        </Method>
+        <Method name="setHeight" returnType="void" visibility="public">
+          <Argument type="double" name="height"/>
+        </Method>
+        <Method name="Display" returnType="void" visibility="public">
+          <Argument type="GraphicsContext" name="gc"/>
+        </Method>
+        <Method name="addDeltaX" returnType="void" visibility="public">
+          <Argument type="double" name="x"/>
+        </Method>
+        <Method name="addDeltaY" returnType="void" visibility="public">
+          <Argument type="double" name="y"/>
+        </Method>
+        <Method name="update" returnType="void" visibility="package"/>
+      </Methods>
+    </Class>
+    <Class name="XMLHandler" package="xmlSaver" visibility="public" xPosition="20.0" yPosition="2420.0">
+      <Fields>
+        <Field name="fileName" type="String" visibility="package" isStatic="true"/>
+      </Fields>
+      <Constructors/>
+      <Methods>
+        <Method name="saveToFile" returnType="boolean" visibility="public" isStatic="true">
+          <Argument type="ArrayList&lt;Icrosser&gt;" name="left"/>
+          <Argument type="ArrayList&lt;Icrosser&gt;" name="right"/>
+          <Argument type="int" name="xpos"/>
+        </Method>
+      </Methods>
+    </Class>
+  </ClassDiagramComponents>
+  <ClassDiagramRelations>
+    <HasRelation name="farmer2" source="mygame.chicken2Moves" target="mygame.Spritefarmer2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="rightSide" source="mygame.Mygame" target="mygame.Icrosser" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Icrosser&gt;"/>
+    <HasRelation name="chicken1" source="mygame.farmer1Moves" target="mygame.Spritechicken1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken3" source="mygame.chcken3Moves" target="mygame.Spritechicken3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="carrot" source="mygame.moveboat" target="mygame.SpriteCarrot" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.chickenMoves" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken2" source="mygame.Controller2" target="mygame.Spritechicken2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.farmerMoves" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="mygame.Spritechicken1" target="mygame.Icrosser2"/>
+    <HasRelation name="rabbit" source="mygame.moveRabbit" target="mygame.SpriteRabbit" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="obj" source="mygame.SpriteBackground" target="mygame.SpriteBackground" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer1" source="mygame.farmer2Moves" target="mygame.Spritefarmer1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken" source="mygame.GuiLogic2" target="mygame.Spritechicken" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.boatMoves" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="l" source="mygame.moveRabbit" target="mygame.eatingRank" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="mygame.Spritefarmer3" target="mygame.Icrosser2"/>
+    <HasRelation name="farmer2" source="mygame.Secondlevel" target="mygame.Spritefarmer2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="mygame.Spritechicken2" target="mygame.Icrosser2"/>
+    <HasRelation name="chicken1" source="mygame.chcken3Moves" target="mygame.Spritechicken1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.GuiLogic2" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer" source="mygame.GuiLogic2" target="mygame.Spritefarmer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="tiger" source="mygame.GuiLogic" target="mygame.SpriteTiger" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer2" source="mygame.chicken1Moves" target="mygame.Spritefarmer2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="c3" source="mygame.Controller2" target="mygame.chcken3Moves" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.farmer2Moves" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="c" source="mygame.Controller2" target="mygame.chickenMoves" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="com" source="mygame.Controller2" target="mygame.Icommand" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer1" source="mygame.GuiLogic2" target="mygame.Spritefarmer1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="mygame.Spritefarmer" target="mygame.Icrosser2"/>
+    <HasRelation name="chicken" source="mygame.farmerMoves" target="mygame.Spritechicken" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="fg" source="mygame.Level" target="mygame.FirstGui" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken" source="mygame.boatMoves" target="mygame.Spritechicken" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken" source="mygame.chickenMoves" target="mygame.Spritechicken" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.farmer2Moves" target="mygame.Icommand"/>
+    <UseRelation source="mygame.SpriteBackground" target="mygame.SpriteBackground" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="C" source="mygame.Secondlevel" target="mygame.Controller" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="f" source="mygame.Controller2" target="mygame.farmerMoves" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="strategy" source="mygame.context" target="mygame.ImoveStrategy" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="l" source="mygame.moveboat" target="mygame.eatingRank" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="mygame.Spritechicken3" target="mygame.Icrosser2"/>
+    <UseRelation source="mygame.Level" target="mygame.Secondlevel" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.farmerMoves" target="mygame.Icommand"/>
+    <HasRelation name="farmer3" source="mygame.chicken1Moves" target="mygame.Spritefarmer3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boatRiders" source="mygame.Secondlevel" target="mygame.Icrosser2" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Icrosser2&gt;"/>
+    <UseRelation source="xmlSaver.XMLHandler" target="mygame.Icrosser" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer3" source="mygame.farmerMoves" target="mygame.Spritefarmer3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken" source="mygame.farmer2Moves" target="mygame.Spritechicken" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="x" source="mygame.Mygame" target="xmlSaver.XMLHandler" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="rabbit" source="mygame.moveboat" target="mygame.SpriteRabbit" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer3" source="mygame.chickenMoves" target="mygame.Spritefarmer3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer3" source="mygame.boatMoves" target="mygame.Spritefarmer3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="l" source="mygame.moveTiger" target="mygame.eatingRank" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer" source="mygame.chicken2Moves" target="mygame.Spritefarmer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="mygame.Spritefarmer1" target="mygame.Icrosser2"/>
+    <HasRelation name="boat" source="mygame.farmer1Moves" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken3" source="mygame.farmerMoves" target="mygame.Spritechicken3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer2" source="mygame.GuiLogic2" target="mygame.Spritefarmer2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer" source="mygame.Secondlevel" target="mygame.Spritefarmer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.eatingRank" target="mygame.Crossing"/>
+    <HasRelation name="leftSide" source="mygame.Mygame" target="mygame.Icrosser" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Icrosser&gt;"/>
+    <HasRelation name="boat" source="mygame.chcken3Moves" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer3" source="mygame.farmer2Moves" target="mygame.Spritefarmer3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken1" source="mygame.farmer3Moves" target="mygame.Spritechicken1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="l" source="mygame.Mygame" target="mygame.eatingRank" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="mygame.SpriteTiger" target="mygame.Icrosser"/>
+    <HasRelation name="chicken1" source="mygame.farmerMoves" target="mygame.Spritechicken1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="t" source="mygame.Controller" target="mygame.moveTiger" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.moveRabbit" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer1" source="mygame.chcken3Moves" target="mygame.Spritefarmer1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken2" source="mygame.chcken3Moves" target="mygame.Spritechicken2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer1" source="mygame.farmer1Moves" target="mygame.Spritefarmer1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer3" source="mygame.farmer3Moves" target="mygame.Spritefarmer3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.boatMoves" target="mygame.Icommand"/>
+    <HasRelation name="c2" source="mygame.Controller2" target="mygame.chicken2Moves" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer1" source="mygame.Controller2" target="mygame.Spritefarmer1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="carrot" source="mygame.moveCarrot" target="mygame.SpriteCarrot" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken2" source="mygame.farmer1Moves" target="mygame.Spritechicken2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.chicken1Moves" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer" source="mygame.farmerMoves" target="mygame.Spritefarmer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="mg" source="mygame.Level" target="mygame.Mygame" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.moveRabbit" target="mygame.ImoveStrategy"/>
+    <UseRelation source="mygame.context" target="mygame.ImoveStrategy" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer1" source="mygame.chicken1Moves" target="mygame.Spritefarmer1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.Crossers" target="mygame.GameController"/>
+    <HasRelation name="invoke" source="mygame.Controller2" target="mygame.invoker" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.moveboat" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.GuiLogic" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.moveboat" target="mygame.ImoveStrategy"/>
+    <HasRelation name="farmer1" source="mygame.boatMoves" target="mygame.Spritefarmer1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken2" source="mygame.Secondlevel" target="mygame.Spritechicken2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer1" source="mygame.chickenMoves" target="mygame.Spritefarmer1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="f" source="mygame.Controller" target="mygame.ImoveStrategy" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken2" source="mygame.farmer3Moves" target="mygame.Spritechicken2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken" source="mygame.chicken2Moves" target="mygame.Spritechicken" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="b" source="mygame.Controller" target="mygame.moveboat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="Human" source="mygame.Mygame" target="mygame.SpriteHuman" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="leftSide" source="mygame.Secondlevel" target="mygame.Icrosser2" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Icrosser2&gt;"/>
+    <HasRelation name="Human" source="mygame.GuiLogic" target="mygame.SpriteHuman" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.moveTiger" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer3" source="mygame.Secondlevel" target="mygame.Spritefarmer3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mygame.GameController" target="mygame.Icrosser" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.chicken1Moves" target="mygame.Icommand"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.chicken2Moves" target="mygame.Icommand"/>
+    <HasRelation name="chicken2" source="mygame.GuiLogic2" target="mygame.Spritechicken2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="l" source="mygame.moveCarrot" target="mygame.eatingRank" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.farmer3Moves" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="Human" source="mygame.moveboat" target="mygame.SpriteHuman" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gl" source="mygame.Secondlevel" target="mygame.GuiLogic2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer" source="mygame.Controller2" target="mygame.Spritefarmer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.Mygame" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken" source="mygame.Controller2" target="mygame.Spritechicken" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="carrot" source="mygame.Mygame" target="mygame.SpriteCarrot" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="mygame.Spritechicken" target="mygame.Icrosser2"/>
+    <HasRelation name="farmer3" source="mygame.farmer1Moves" target="mygame.Spritefarmer3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="mygame.SpriteRabbit" target="mygame.Icrosser"/>
+    <HasRelation name="farmer1" source="mygame.farmer3Moves" target="mygame.Spritefarmer1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mygame.Crossers" target="mygame.Icrosser2" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer3" source="mygame.Controller2" target="mygame.Spritefarmer3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mygame.Crossers" target="mygame.Icrosser" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.chickenMoves" target="mygame.Icommand"/>
+    <HasRelation name="rightSide" source="mygame.Secondlevel" target="mygame.Icrosser2" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Icrosser2&gt;"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.moveTiger" target="mygame.ImoveStrategy"/>
+    <HasRelation name="farmer3" source="mygame.chcken3Moves" target="mygame.Spritefarmer3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken3" source="mygame.Secondlevel" target="mygame.Spritechicken3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <IsRelation name="is" source="mygame.Spritefarmer2" target="mygame.Icrosser2"/>
+    <HasRelation name="chicken" source="mygame.farmer1Moves" target="mygame.Spritechicken" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken3" source="mygame.chicken2Moves" target="mygame.Spritechicken3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer1" source="mygame.chicken2Moves" target="mygame.Spritefarmer1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="tiger" source="mygame.moveTiger" target="mygame.SpriteTiger" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="g" source="mygame.Secondlevel" target="mygame.getWeight" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer" source="mygame.farmer1Moves" target="mygame.Spritefarmer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="rabbit" source="mygame.GuiLogic" target="mygame.SpriteRabbit" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken1" source="mygame.Secondlevel" target="mygame.Spritechicken1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.Controller2" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="b" source="mygame.Controller2" target="mygame.boatMoves" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="l" source="mygame.GuiLogic2" target="mygame.eatingRank" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer" source="mygame.farmer3Moves" target="mygame.Spritefarmer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken1" source="mygame.chicken2Moves" target="mygame.Spritechicken1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken1" source="mygame.GuiLogic2" target="mygame.Spritechicken1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.Secondlevel" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="l" source="mygame.GuiLogic" target="mygame.eatingRank" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer2" source="mygame.farmerMoves" target="mygame.Spritefarmer2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="sl" source="mygame.Level" target="mygame.Secondlevel" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.chicken2Moves" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer1" source="mygame.Secondlevel" target="mygame.Spritefarmer1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken2" source="mygame.farmerMoves" target="mygame.Spritechicken2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken2" source="mygame.boatMoves" target="mygame.Spritechicken2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.moveCarrot" target="mygame.ImoveStrategy"/>
+    <HasRelation name="chicken2" source="mygame.chickenMoves" target="mygame.Spritechicken2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="rabbit" source="mygame.Mygame" target="mygame.SpriteRabbit" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken3" source="mygame.GuiLogic2" target="mygame.Spritechicken3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="l" source="mygame.Secondlevel" target="mygame.GuiLogic2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken2" source="mygame.farmer2Moves" target="mygame.Spritechicken2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.farmer1Moves" target="mygame.Icommand"/>
+    <HasRelation name="c1" source="mygame.Controller2" target="mygame.chicken1Moves" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="r" source="mygame.Controller" target="mygame.moveRabbit" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken3" source="mygame.chickenMoves" target="mygame.Spritechicken3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken" source="mygame.Secondlevel" target="mygame.Spritechicken" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="C" source="mygame.Mygame" target="mygame.Controller" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken3" source="mygame.farmer3Moves" target="mygame.Spritechicken3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer2" source="mygame.Controller2" target="mygame.Spritefarmer2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken2" source="mygame.chicken2Moves" target="mygame.Spritechicken2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="g" source="mygame.Mygame" target="mygame.GuiLogic" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken1" source="mygame.boatMoves" target="mygame.Spritechicken1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mygame.Level" target="mygame.Mygame" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken1" source="mygame.chickenMoves" target="mygame.Spritechicken1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken3" source="mygame.farmer2Moves" target="mygame.Spritechicken3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer" source="mygame.chicken1Moves" target="mygame.Spritefarmer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.chcken3Moves" target="mygame.Icommand"/>
+    <HasRelation name="farmer2" source="mygame.chickenMoves" target="mygame.Spritefarmer2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer2" source="mygame.boatMoves" target="mygame.Spritefarmer2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <UseRelation source="mygame.invoker" target="mygame.Icommand" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="f1" source="mygame.Controller2" target="mygame.farmer1Moves" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="carrot" source="mygame.GuiLogic" target="mygame.SpriteCarrot" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="c" source="mygame.Secondlevel" target="mygame.Controller2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer2" source="mygame.farmer3Moves" target="mygame.Spritefarmer2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="gl" source="mygame.Controller" target="mygame.GuiLogic" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.farmer3Moves" target="mygame.Icommand"/>
+    <HasRelation name="farmer" source="mygame.chcken3Moves" target="mygame.Spritefarmer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="boat" source="mygame.moveCarrot" target="mygame.SpriteBoat" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="tiger" source="mygame.moveboat" target="mygame.SpriteTiger" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer2" source="mygame.farmer2Moves" target="mygame.Spritefarmer2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken" source="mygame.chcken3Moves" target="mygame.Spritechicken" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken3" source="mygame.boatMoves" target="mygame.Spritechicken3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="tiger" source="mygame.Mygame" target="mygame.SpriteTiger" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken" source="mygame.farmer3Moves" target="mygame.Spritechicken" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="d" source="mygame.Mygame" target="mygame.SpriteBackground" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken1" source="mygame.chicken1Moves" target="mygame.Spritechicken1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken1" source="mygame.Controller2" target="mygame.Spritechicken1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="f3" source="mygame.Controller2" target="mygame.farmer3Moves" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer3" source="mygame.GuiLogic2" target="mygame.Spritefarmer3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="f2" source="mygame.Controller2" target="mygame.farmer2Moves" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="decision" source="mygame.invoker" target="mygame.Icommand" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Icommand&gt;"/>
+    <UseRelation source="mygame.GameController" target="mygame.Icrosser2" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="initial1" source="mygame.Mygame" target="mygame.Icrosser" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Icrosser&gt;"/>
+    <HasRelation name="farmer" source="mygame.farmer2Moves" target="mygame.Spritefarmer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="initial2" source="mygame.Secondlevel" target="mygame.Icrosser2" type="Aggregation" sourceCardinality="1..1" targetCardinality="0..*" collectionType="List&lt;Icrosser2&gt;"/>
+    <IsRelation name="is" source="mygame.SpriteCarrot" target="mygame.Icrosser"/>
+    <HasRelation name="c" source="mygame.Controller" target="mygame.moveCarrot" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken3" source="mygame.Controller2" target="mygame.Spritechicken3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer2" source="mygame.chcken3Moves" target="mygame.Spritefarmer2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="ctx" source="mygame.Controller" target="mygame.context" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <ImplementsRelation name="&lt;&lt;implements&gt;&gt;" source="mygame.getWeight" target="mygame.Crossing2"/>
+    <HasRelation name="gw" source="mygame.Secondlevel" target="mygame.getWeight" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer2" source="mygame.farmer1Moves" target="mygame.Spritefarmer2" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken3" source="mygame.farmer1Moves" target="mygame.Spritechicken3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="chicken1" source="mygame.farmer2Moves" target="mygame.Spritechicken1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="f" source="mygame.Secondlevel" target="mygame.farmerMoves" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer" source="mygame.chickenMoves" target="mygame.Spritefarmer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="g" source="mygame.boatMoves" target="mygame.getWeight" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer3" source="mygame.chicken2Moves" target="mygame.Spritefarmer3" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer1" source="mygame.farmerMoves" target="mygame.Spritefarmer1" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="farmer" source="mygame.boatMoves" target="mygame.Spritefarmer" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+    <HasRelation name="g" source="mygame.chickenMoves" target="mygame.getWeight" type="Aggregation" sourceCardinality="1..1" targetCardinality="1..1"/>
+  </ClassDiagramRelations>
+</ClassDiagram>
